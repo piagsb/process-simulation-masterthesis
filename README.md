@@ -47,6 +47,7 @@ cd Credit/
 python feature_engineering.py
 python preprocess_data.py
 python train_model.py
+python random_search.py
 python recommended_next_activity.py
 ```
 
