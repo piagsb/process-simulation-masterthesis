@@ -11,7 +11,9 @@ The project is divided into two domains:
 - `Traffic/`: Analysis and optimization of traffic violation cases (Road Traffic Fine Management Process)
 
 Each folder contains:
-- Dataset (excluded from GitHub due to size constraints)
+- Dataset (excluded from GitHub due to size constraints, need to be added manually):
+- Credit: https://data.4tu.nl/articles/_/12696884/1
+- Traffic: https://data.4tu.nl/articles/_/12683249/1
 - Feature engineering scripts
 - Model training (Random Forest)
 - Activity recommendation and scenario simulation
@@ -44,10 +46,9 @@ The pipeline is modular. To reproduce the results for the credit dataset:
 
 ```bash
 cd Credit/
-python feature_engineering.py
 python preprocess_data.py
+python feature_engineering.py
 python train_model.py
-python random_search.py
 python recommended_next_activity.py
 ```
 
